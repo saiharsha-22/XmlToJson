@@ -1,0 +1,39 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:gray;
+}
+#main{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:70%;
+	height:100vh;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+body h1{
+	font-family:Calibri;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	width:90%;
+	height:80%;
+
+}
+#xml{
+	width:80%;
+	height:300px;
+	margin-bottom:20px;
+}
+#submit-btn{
+	display:block;
+	padding: 10px 20px;
+}
