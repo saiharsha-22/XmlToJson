@@ -1,0 +1,38 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:gray;
+}
+#main{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:70%;
+	height:100vh;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+body h1{
+	font-family:Calibri;
+	margin-bottom:20px;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+	width:90%;
+
+}
+#xml{
+	width:80%;
+	height:40%;
+}
+#submit-btn{
+	display:block;
+	padding: 10px 20px;
+}
